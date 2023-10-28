@@ -9,7 +9,7 @@ nav a{
     color: white;
 }
 nav a:hover{
-    color: chartreuse;
+    color: rgb(89, 120, 57);
     font-weight: bold;
 }
 
@@ -24,7 +24,7 @@ span:hover{
     color:white;
 }
 #navbarSupportedContent li a:hover{
-    color: chartreuse;
+    color: rgb(89, 120, 57);
 }
 /* text css above hero image*/
 .hero_title {
@@ -42,7 +42,7 @@ span:hover{
     color: white;
 }
 .imageAboutPage {
-    width: 100%;
+    width: 90%;
     border-radius:50%;
 }
 /* services section css */
@@ -62,11 +62,12 @@ span:hover{
     color: #00ce1b;
 }
 .servicesText:hover {
-    border: 1px solid #350288;
+    border: 2px solid #350288;
+    color: #820505;
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color:#370909;
+    background-color:#2d0808;
 }
 
 /* social media icons styling */
@@ -92,6 +93,7 @@ span:hover{
 }
 #contact {
     padding-bottom: 4rem;
+
 }
 
 .card img{
@@ -110,5 +112,10 @@ span:hover{
 }
 .social-icons a{
     color: black;
+}
+
+
+#Login{
+    visibility: hidden;
 }
 
